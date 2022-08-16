@@ -2,13 +2,13 @@
     <!-- Base application theme. -->
     <style name="Theme.FlashCard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/Quinacridone_Magenta</item>
+        <item name="colorPrimaryVariant">@color/Old_Burgundy</item>
+        <item name="colorOnPrimary">@color/Smoky_Black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/Mint_Cream</item>
+        <item name="colorSecondaryVariant">@color/Palatinate_Purple</item>
+        <item name="colorOnSecondary">@color/Smoky_Black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->

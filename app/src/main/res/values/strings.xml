@@ -9,9 +9,9 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="flashCardApp">FLASHCARDAPP</string>
+    <string name="flashCardApp">FLASHCARD.APP</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="activity_main_title">FLASHCARDAPP</string>
+    <string name="activity_main_title">FLASHCARD.APP</string>
 </resources>
