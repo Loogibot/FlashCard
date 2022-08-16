@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Vivid_Tangerine"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,7 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
         android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
         android:text="@string/flashCardApp"
+        android:textStyle="bold"
         android:textSize="40sp">
 
     </TextView>
@@ -30,7 +33,18 @@
 
 <!--    </com.google.android.material.appbar.AppBarLayout>-->
 
-    <include layout="@layout/content_main" />
+    <Button
+        android:id="@+id/random_test_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random "
+        android:layout_marginTop="40dp"
+
+        >
+
+    </Button>
+
+    <include layout="@layout/deck_list" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/deckList"
@@ -40,4 +54,4 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
