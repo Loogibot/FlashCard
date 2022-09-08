@@ -1,31 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:stretchColumns="0">
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:columnCount="4"
+    android:rowCount="4">
 
-    <TableRow
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="60dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:indeterminateTint="@color/Quinacridone_Magenta"
+        android:background="@color/Misty_Rose"/>
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@color/Misty_Rose" />
-    </TableRow>
+    <Button
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:gravity="center" >
+        android:id="@+id/play_audio"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:drawableEnd="@drawable/ic_baseline_play_arrow_24"/>
 
-        <include
-            layout="@layout/audio_buttons"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
-    </TableRow>
+    <Button
+        android:id="@+id/pause_audio"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:drawableEnd="@drawable/ic_baseline_pause_24" />
 
-</TableLayout>
+    <Button
+        android:id="@+id/record_audio"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:drawableEnd="@drawable/ic_baseline_fiber_manual_record_24" />
+
+    <Button
+        android:id="@+id/delete_audio"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:drawableEnd="@drawable/ic_baseline_delete_forever_24" />
+
+</GridLayout>

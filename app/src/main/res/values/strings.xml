@@ -14,4 +14,6 @@
     <string name="random">Random Card Quiz</string>
     <string name="flash_card_title">flash_card_title</string>
     <string name="card_description">card_description</string>
+    <string name="card_image_description">card_image_description</string>
+    <string name="play_audio_button">play</string>
 </resources>

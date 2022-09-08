@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".card_template"
-    android:orientation="vertical">
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".card_template">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- Card layout with required title, description
+     and optional image and audio
+     -->
+
     <TextView
         android:id="@+id/flash_card_title"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:text="@string/flash_card_title"
         android:textSize="20sp"
-        android:textAlignment="center"
-        android:text="@string/flash_card_title" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="64dp" />
+
     <TextView
         android:id="@+id/card_description"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:text="@string/card_description"
         android:textSize="20sp"
-        android:textAlignment="center"
-        android:text="@string/card_description"/>
+        app:layout_constraintTop_toBottomOf="@+id/flash_card_title" />
 
+    <include
+        layout="@layout/audio_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/card_description" />
 
+    <ImageView
+        android:id="@+id/card_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/card_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/audio_controls" />
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
