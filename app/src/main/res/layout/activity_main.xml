@@ -35,23 +35,12 @@
 
     <Button
         android:id="@+id/random_test_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Random "
-        android:layout_marginTop="40dp"
-
-        >
-
+        android:text="@string/random"
+        android:layout_marginTop="40dp">
     </Button>
 
     <include layout="@layout/deck_list" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/deckList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10sp">
-
-    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>

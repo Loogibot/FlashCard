@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
 
     <!--  light set -->
     <color name="Fire_Opal">#EF6351</color>
     <color name="Salmon">#F38375</color>
     <color name="Vivid_Tangerine">#F7A399</color>
-    <color name="Spanish_Pink">#fbc3bc</color>
     <color name="Misty_Rose">#ffe3e0</color>
 
     <!--  dark set -->
@@ -22,7 +15,6 @@
     <color name="Quinacridone_Magenta">#912F56</color>
     <color name="Mint_Cream">#EAF2EF</color>
 
-    <color name="white">#FFFFFFFF</color>
     <color name="light_blue_600">#FF039BE5</color>
     <color name="light_blue_900">#FF01579B</color>
     <color name="light_blue_A200">#FF40C4FF</color>

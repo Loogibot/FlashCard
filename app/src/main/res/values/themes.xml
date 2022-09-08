@@ -19,10 +19,6 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.FlashCard.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.FlashCard.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
     <style name="Theme.FlashCard.Fullscreen" parent="Theme.FlashCard">
         <item name="android:actionBarStyle">@style/Widget.Theme.FlashCard.ActionBar.Fullscreen
         </item>
