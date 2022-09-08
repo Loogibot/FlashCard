@@ -8,11 +8,6 @@
     android:orientation="vertical"
     tools:context=".card_template">
 
-    <!--
-    Card layout with required title, description
-    and optional image and audio
-     -->
-
     <TextView
         android:id="@+id/flash_card_title"
         android:layout_width="match_parent"
@@ -34,9 +29,6 @@
         layout="@layout/audio_controls"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card_description" />
 
     <ImageView
