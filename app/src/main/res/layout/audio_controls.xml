@@ -2,8 +2,8 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="150dp"
-    android:rowCount="2"
-    android:columnCount="4" >
+    android:columnCount="4"
+    android:rowCount="4">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -12,18 +12,21 @@
         android:layout_height="60dp"
         android:layout_row="0"
         android:layout_column="0"
-        android:layout_columnSpan="4" />
+        android:layout_columnSpan="4"
+        android:indeterminateTint="@color/Quinacridone_Magenta"
+        android:background="@color/Misty_Rose"/>
 
     <Button
+
         android:id="@+id/play_audio"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_row="1"
         android:layout_column="0"
-        android:layout_columnSpan="4"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:drawableStart="@drawable/ic_baseline_play_arrow_24"
-        android:layout_gravity="center_horizontal" />
+        android:drawableEnd="@drawable/ic_baseline_play_arrow_24"/>
+
 
     <Button
         android:id="@+id/pause_audio"
@@ -31,9 +34,9 @@
         android:layout_height="60dp"
         android:layout_row="1"
         android:layout_column="1"
-        android:layout_columnSpan="4"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:layout_gravity="center_horizontal" />
+        android:drawableEnd="@drawable/ic_baseline_pause_24" />
 
     <Button
         android:id="@+id/record_audio"
@@ -41,9 +44,9 @@
         android:layout_height="60dp"
         android:layout_row="1"
         android:layout_column="2"
-        android:layout_columnSpan="4"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:layout_gravity="center_horizontal" />
+        android:drawableEnd="@drawable/ic_baseline_fiber_manual_record_24" />
 
     <Button
         android:id="@+id/delete_audio"
@@ -51,8 +54,8 @@
         android:layout_height="60dp"
         android:layout_row="1"
         android:layout_column="3"
-        android:layout_columnSpan="4"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:layout_gravity="center_horizontal" />
+        android:drawableEnd="@drawable/ic_baseline_delete_forever_24" />
 
 </GridLayout>
