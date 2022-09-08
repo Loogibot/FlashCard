@@ -8,10 +8,6 @@
     android:orientation="vertical"
     tools:context=".card_template">
 
-    <!-- Card layout with required title, description
-     and optional image and audio
-     -->
-
     <TextView
         android:id="@+id/flash_card_title"
         android:layout_width="match_parent"
