@@ -6,6 +6,12 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <!-- Strings used for Audio Controls -->
+    <string name="play_audio">PLAY</string>
+    <string name="pause_audio">PAUSE</string>
+    <string name="record_audio">RECORD</string>
+    <string name="delete_audio">DELETE</string>
+
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="flashCardApp">FLASHCARD.APP</string>
     <string name="activity_main_title">FLASHCARD.APP</string>
@@ -14,4 +20,6 @@
     <string name="random">Random Card Quiz</string>
     <string name="flash_card_title">flash_card_title</string>
     <string name="card_description">card_description</string>
+    <string name="card_image_description">card_image_description</string>
+    <string name="play_audio_button">play</string>
 </resources>
