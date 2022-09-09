@@ -3,43 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/custom_bar"
     android:orientation="vertical"
-    android:background="@color/Vivid_Tangerine"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10sp"
         android:layout_gravity="center"
+        android:layout_margin="10sp"
         android:fontFamily="serif-monospace"
         android:text="@string/flashCardApp"
-        android:textStyle="bold"
-        android:textSize="40sp">
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
-    </TextView>
-
-<!--    <com.google.android.material.appbar.AppBarLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:theme="@style/Theme.FlashCard.AppBarOverlay">-->
-
-<!--        <androidx.appcompat.widget.Toolbar-->
-<!--            android:id="@+id/toolbar"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="?attr/actionBarSize"-->
-<!--            android:background="?attr/colorPrimary"-->
-<!--            app:popupTheme="@style/Theme.FlashCard.PopupOverlay" />-->
-
-<!--    </com.google.android.material.appbar.AppBarLayout>-->
-
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/random_test_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/custom_button"
         android:text="@string/random"
-        android:layout_marginTop="40dp">
-    </Button>
+        android:textSize="20sp"
+        android:textColor="@color/Vivid_Tangerine" />
 
     <include layout="@layout/deck_list" />
 
