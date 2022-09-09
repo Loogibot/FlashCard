@@ -20,9 +20,7 @@ public class SplashScreen extends AppCompatActivity {
 
         // remove appbar on top for splash screen
         Objects.requireNonNull(getSupportActionBar()).hide();
-
         flashCardTitle = findViewById(R.id.flash_card_title);
-
 
         new Handler().postDelayed(() -> { // switches to MainActivity after delay
             startActivity(new Intent(SplashScreen.this, MainActivity.class));

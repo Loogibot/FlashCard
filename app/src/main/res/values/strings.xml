@@ -22,4 +22,6 @@
     <string name="card_description">card_description</string>
     <string name="card_image_description">card_image_description</string>
     <string name="play_audio_button">play</string>
+    <string name="new_deck">NEW DECK +</string>
+    <string name="deck_template">DECK_TEMPLATE</string>
 </resources>
