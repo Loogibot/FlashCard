@@ -19,6 +19,7 @@
         android:layout_height="40dp"
         android:text="@string/flash_card_title"
         android:textSize="20sp"
+        android:background="@drawable/custom_bar"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="64dp" />
 
@@ -28,6 +29,7 @@
         android:layout_height="100dp"
         android:text="@string/card_description"
         android:textSize="20sp"
+        android:background="@drawable/custom_bar"
         app:layout_constraintTop_toBottomOf="@+id/flash_card_title" />
 
     <include

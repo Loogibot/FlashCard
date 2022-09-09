@@ -8,24 +8,25 @@
         android:layout_width="match_parent"
         android:layout_height="fill_parent">
 
-        <ProgressBar
-            android:id="@+id/progressBar"
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seekBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@color/Misty_Rose" />
+            android:background="@drawable/custom_gradient_bar"
+            android:progressDrawable="@drawable/custom_bar"
+            android:scaleY="1" />
     </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:gravity="center" >
+        android:gravity="center">
 
         <include
             layout="@layout/audio_buttons"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
     </TableRow>
 
 </TableLayout>

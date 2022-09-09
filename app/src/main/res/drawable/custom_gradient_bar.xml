@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the background properties like color etc, this creates
+    gradient style, meant for progress bar
+    -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/Salmon"
+                android:centerColor="@color/Vivid_Tangerine"
+                android:endColor="@color/Fire_Opal"
+                android:useLevel="false" />
+            <corners android:radius="10dp" />
+
+        </shape>
+    </item>
+
+</layer-list>
