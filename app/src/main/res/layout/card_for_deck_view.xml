@@ -6,8 +6,9 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/card_for_deck"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="100dp"
         android:text="@string/flash_card_title"
+
         android:textColor="@color/Mint_Cream"
         android:textSize="20sp"
         android:background="@drawable/custom_gradient_bar"/>

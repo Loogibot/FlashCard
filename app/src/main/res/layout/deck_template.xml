@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/deck_template_for_deck_lsit"
@@ -11,6 +12,11 @@
         android:text="@string/deck_template"
         android:textColor="@color/Mint_Cream"
         android:textSize="20sp"
-        android:background="@drawable/custom_gradient_bar"/>
+
+        android:background="@drawable/custom_gradient_bar">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
