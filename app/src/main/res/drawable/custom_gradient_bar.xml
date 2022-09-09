@@ -8,10 +8,12 @@
             <gradient
                 android:startColor="@color/Salmon"
                 android:centerColor="@color/Vivid_Tangerine"
-                android:endColor="@color/Fire_Opal"
+                android:endColor="@color/Salmon"
                 android:useLevel="false" />
             <corners android:radius="10dp" />
-
+            <stroke
+                android:width="5dp"
+                android:color="@color/Salmon" />
         </shape>
     </item>
 

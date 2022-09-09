@@ -11,6 +11,11 @@
                 android:endColor="@color/Misty_Rose"
                 android:useLevel="false" />
             <corners android:radius="10dp" />
+            <padding
+                android:left="3dp"
+                android:top="3dp"
+                android:right="3dp"
+                android:bottom="3dp" />
             <stroke
                 android:width="3dp"
                 android:color="@color/Mint_Cream" />

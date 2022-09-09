@@ -13,6 +13,7 @@
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_margin="3dp"
             android:background="@drawable/custom_gradient_bar"
             android:progressDrawable="@drawable/custom_bar"
             android:scaleY="1" />

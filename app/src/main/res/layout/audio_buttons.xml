@@ -6,12 +6,13 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/play_audio"
-        android:layout_width="145dp"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_column="0"
+        android:layout_margin="3dp"
         android:drawableStart="@drawable/ic_baseline_play_arrow_24"
         android:text="@string/play_audio"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_bar"
         android:textColor="@color/Quinacridone_Magenta"
         android:textSize="11sp" />
 
@@ -20,10 +21,11 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_column="1"
+        android:layout_margin="3dp"
         android:drawableStart="@drawable/ic_baseline_pause_24"
         android:text="@string/pause_audio"
         android:textColor="@color/Quinacridone_Magenta"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_bar"
         android:textSize="11sp" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -31,21 +33,23 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_column="2"
+        android:layout_margin="3dp"
         android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
         android:text="@string/record_audio"
         android:textColor="@color/Quinacridone_Magenta"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_bar"
         android:textSize="11sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/delete_audio"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
+        android:layout_margin="3dp"
         android:layout_column="3"
         android:drawableStart="@drawable/ic_baseline_delete_forever_24"
         android:text="@string/delete_audio"
         android:textColor="@color/Quinacridone_Magenta"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_bar"
         android:textSize="11sp" />
 
 
