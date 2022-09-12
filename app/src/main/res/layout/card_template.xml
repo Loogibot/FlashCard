@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".card_template">
 
-    <TextView
+    <EditText
         android:id="@+id/flash_card_title"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -17,14 +17,16 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="64dp" />
 
-    <TextView
+    <EditText
         android:id="@+id/card_description"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:text="@string/card_description"
         android:textSize="20sp"
+        android:gravity="top"
         android:background="@drawable/custom_bar"
-        app:layout_constraintTop_toBottomOf="@+id/flash_card_title" />
+        app:layout_constraintTop_toBottomOf="@+id/flash_card_title"
+        android:autofillHints="" />
 
     <include
         layout="@layout/audio_controls"
