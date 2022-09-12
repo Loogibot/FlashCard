@@ -13,8 +13,8 @@
             android:id="@+id/deck_template"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:layout_margin="10dp"
             android:layout_gravity="center"
+            android:layout_margin="10dp"
             android:text="@string/deck_template"
             android:textColor="@color/Mint_Cream"
             android:textSize="30sp" />
@@ -23,16 +23,23 @@
             android:id="@+id/edit_deck"
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
             android:layout_margin="10dp"
-            android:drawableTop="@drawable/ic_baseline_delete_forever_24"
-            android:text="@string/delete_audio" />
+            android:drawableTop="@drawable/edit_icon"
+            android:text="@string/edit" />
     </TableRow>
 
     <TableRow
-        android:layout_gravity="center_horizontal"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
-        <include layout="@layout/card_list" />
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <include
+            layout="@layout/card_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2" />
 
     </TableRow>
 

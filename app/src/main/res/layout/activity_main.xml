@@ -16,20 +16,20 @@
         android:text="@string/flashCardApp"
         android:textColor="@color/Quinacridone_Magenta"
         android:textSize="50sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/random_test_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/custom_button"
         android:text="@string/random"
-        android:textSize="20sp"
-        android:textColor="@color/Vivid_Tangerine" />
+        android:textColor="@color/Vivid_Tangerine"
+        android:textSize="20sp" />
 
     <include layout="@layout/deck_list" />
 

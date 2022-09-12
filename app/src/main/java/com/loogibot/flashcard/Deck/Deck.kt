@@ -7,6 +7,9 @@ class Deck(val id: Int, val name: String) {
 
     var deck: List<Card> = mutableListOf()
 
+    fun addCard() {
+
+    }
 
 
 }

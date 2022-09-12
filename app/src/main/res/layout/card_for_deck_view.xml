@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:columnCount="5"
+    android:orientation="vertical"
+    android:rowCount="1">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/card_for_deck"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
         android:background="@drawable/custom_bar"
+        android:gravity="start"
+        android:padding="10dp"
         android:text="@string/flash_card_title"
         android:textColor="@color/Quinacridone_Magenta"
         android:textSize="20sp" />
 
-</LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delete_card"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_gradient_bar"
+        android:drawableTop="@drawable/edit_icon"
+        android:padding="15dp"
+        android:text="@string/edit" />
+
+</GridLayout>
