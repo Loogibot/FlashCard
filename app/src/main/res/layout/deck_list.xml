@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="3dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:orientation="vertical">
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        tools:listitem="@layout/deck_template" />
+        tools:listitem="@layout/deck_for_deck_list" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/new_deck"

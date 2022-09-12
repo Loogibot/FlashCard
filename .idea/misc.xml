@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1575" />
+        <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/drawable/custom_bar.xml" value="0.2185" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/drawable/custom_button.xml" value="0.1" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/drawable/custom_empty_bar.xml" value="0.1595" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/drawable/custom_gradient_bar.xml" value="0.2" />
@@ -23,8 +24,9 @@
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/card_list.xml" value="0.33" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/card_template.xml" value="0.33" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/content_main.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/deck_for_deck_list.xml" value="0.25625" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/deck_list.xml" value="0.25" />
-        <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/deck_template.xml" value="0.33" />
+        <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/deck_template.xml" value="0.25" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/fragment_first.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/fragment_second.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/luigi/OneDrive/Coding Projects/Android Apps/FlashCard/app/src/main/res/layout/splash_screen.xml" value="0.18" />

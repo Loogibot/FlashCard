@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/custom_gradient_bar"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/deck_template_for_deck_lsit"
+    <TableRow
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="3dp"
-        android:text="@string/deck_template"
-        android:textColor="@color/Mint_Cream"
-        android:textSize="20sp"
+        android:layout_height="80dp">
 
-        android:background="@drawable/custom_gradient_bar">
+        <TextView
+            android:id="@+id/deck_template"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="@string/deck_template"
+            android:textColor="@color/Mint_Cream"
+            android:textSize="30sp" />
 
-    </androidx.appcompat.widget.AppCompatButton>
+        <Button
+            android:id="@+id/edit_deck"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:drawableTop="@drawable/ic_baseline_delete_forever_24"
+            android:text="@string/delete_audio" />
+    </TableRow>
 
+    <TableRow
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <include layout="@layout/card_list" />
 
+    </TableRow>
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+</TableLayout>
