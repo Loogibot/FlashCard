@@ -1,3 +1,12 @@
 package com.loogibot.flashcard.Deck
 
-data class Deck(val id: Int, val name: String)
+import com.loogibot.flashcard.Card.Card
+
+class Deck(val id: Int, val name: String) {
+    val deckSize = 0
+
+    var deck: List<Card> = mutableListOf()
+
+
+
+}
