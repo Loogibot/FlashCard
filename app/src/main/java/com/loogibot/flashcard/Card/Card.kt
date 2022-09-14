@@ -9,4 +9,6 @@ data class Card(
     val description: String,
     val audio: MediaStore.Audio,
     val image: Image
-)
+) {
+
+}

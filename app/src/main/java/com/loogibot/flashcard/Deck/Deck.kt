@@ -11,5 +11,4 @@ class Deck(val id: Int, val name: String) {
 
     }
 
-
 }
