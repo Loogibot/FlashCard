@@ -1,0 +1,3 @@
+androidx.lifecycle.ViewModelProviders
+androidx.lifecycle.ViewModelProviders$DefaultFactory
+androidx.lifecycle.ViewModelStores
