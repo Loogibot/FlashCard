@@ -1,14 +1,16 @@
-package com.loogibot.flashcard.Deck
+package com.loogibot.flashcard.deck
 
-import com.loogibot.flashcard.Card.Card
+import androidx.lifecycle.LiveData
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import com.loogibot.flashcard.card.Card
 
-data class Deck(val id: Int, val title: String) {
-    val deckSize = 0
-
-    var deck: List<Card> = mutableListOf()
-
-    fun addCard() {
-
-    }
-
+@Entity(tableName = "deck_table")
+data class Deck(
+    @PrimaryKey val id: Int,
+    @ColumnInfo(name = "deck_table")
+    val title: String,
+    val cards: LiveData<List<Card>>
+) {
 }

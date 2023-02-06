@@ -1,4 +1,4 @@
-package com.loogibot.flashcard.Card
+package com.loogibot.flashcard.card
 
 import android.view.LayoutInflater
 import android.view.View

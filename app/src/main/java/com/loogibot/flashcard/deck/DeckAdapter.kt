@@ -1,4 +1,4 @@
-package com.loogibot.flashcard.Deck
+package com.loogibot.flashcard.deck
 
 import android.view.LayoutInflater
 import android.view.View
@@ -28,4 +28,4 @@ class DeckAdapter(private val deckList: List<Deck>) :
 
     override fun getItemCount() = deckList.size
 
-}
+    }

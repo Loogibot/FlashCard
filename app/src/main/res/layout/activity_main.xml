@@ -31,6 +31,8 @@
         android:textColor="@color/Vivid_Tangerine"
         android:textSize="20sp" />
 
-    <include layout="@layout/deck_list" />
+    <include
+        android:id="@+id/deck_list"
+        layout="@layout/deck_list" />
 
 </LinearLayout>
